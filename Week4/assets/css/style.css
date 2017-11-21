@@ -1,0 +1,73 @@
+body {
+	background-image: url("https://i.imgur.com/OuSizUw.jpg"); 
+	background-repeat:no-repeat;
+	background-size: auto auto;
+}
+
+div {
+	border: solid black 3px;
+}
+
+.pick-player {
+	height: 100%;
+}
+
+.picker {
+	height:100%;
+}
+
+.pic {
+	width:209px;
+	height: 124px;
+	margin:20px auto;
+	box-sizing: border-box;
+}
+
+.picker div {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.stage {
+	margin: 0 auto;
+	width: 100%;
+	height: 700px;
+}
+
+.att-btn {
+	height: 100px;
+
+}
+
+.player-picked {
+	height: 410px;
+}
+
+.player-health {
+	height: 100px;
+}
+
+.pick-enemy {
+	height: 100px;
+
+}
+
+.enemy-picked {
+	height: 410px;
+}
+
+.enemy-health {
+	height: 100px;
+}
+
+.stage {
+	height: 100%;
+}
+
+.logo {
+	margin: 0 auto;
+	height: 100px;
+	width: 250px;
+}
+
