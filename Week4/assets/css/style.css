@@ -1,12 +1,18 @@
 body {
-	background-image: url("https://i.imgur.com/OuSizUw.jpg"); 
-	background-repeat:no-repeat;
-	background-size: auto auto;
+	background-color: white;
 }
 
 /*div {
 	border: solid black 3px;
 }*/
+
+.player-box {
+	display: none;
+}
+
+.enemy-box {
+	display: none;
+}
 
 .pick-player {
 	height: 100%;
@@ -33,6 +39,52 @@ body {
 	height: 410px;
 }
 
+.health {
+	position: absolute;
+	top: 0;
+	left: 57%;
+	font-size: 80px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.attack {
+	position: absolute;
+	top: 23%;
+	left: 67%;
+	font-size: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: red;
+	font-weight: 500;
+}
+
+.character {
+	border: solid black 3px;
+}
+.enhealth {
+	position: absolute;
+	top: 0;
+	right: 70%;
+	font-size: 120px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.stage span {
+	font-size: 30px;
+}
+
+.encount-attack {
+	position: absolute;
+	top: 40%;
+	right: 70%;
+	font-size: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
 .picker div {
 	width: 100%;
 	margin: 0 auto;
@@ -51,16 +103,17 @@ body {
 }
 
 .player-picked {
-	height: 410px;
+	height: 400px;
+	position: relative;
 }
 
 .pick-enemy {
 	height: 100px;
-
 }
 
 .enemy-picked {
-	height: 410px;
+	height: 400px;
+	position: relative;
 }
 
 .enemy-name {
@@ -86,7 +139,7 @@ body {
 .name {
 	background-color: black;
 	color: white;
-	font-size: 80px;
+	font-size: 30px;
 	text-align: center;
 }
 
@@ -99,3 +152,21 @@ body {
 	width: 100%
 }
 
+.may {
+	text-align: center;
+	padding:100px;
+	font-weight: 900; 
+	line-height:50px; 
+}
+
+h3 {
+	text-align: center;
+	color: gray;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#enone, #entwo, #enthree {
+	width:33%;
+	height:100px;
+}

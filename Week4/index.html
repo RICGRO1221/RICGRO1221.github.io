@@ -18,35 +18,41 @@
 				<img src="./assets/images/logo2.png" class="logo">
 			</div>
 			<div class="row pick-player" id="pick-player">
-				<img  class="pic" src="./assets/images/luke_pick.jpg">
-				<img  class="pic" src="./assets/images/chew_pick.jpg">
-				<img class="pic" src="./assets/images/boba_pick.jpg">
-				<img class="pic" src="./assets/images/vader_pick.jpg">
+				<img  class="pic" id="pic-luke" src="./assets/images/luke_pick.jpg">
+				<img  class="pic" id="pic-chew" src="./assets/images/chew_pick.jpg">
+				<img class="pic" id="pic-boba" src="./assets/images/boba_pick.jpg">
+				<img class="pic" id="pic-vader" src="./assets/images/vader_pick.jpg">
 			</div>
 		</div>
 		<div class="row stage">
+			<div class="col-lg-12 character" id="character"></div>
 			<div class="col-lg-6 player-box" id="player-box">
 				<div class="row att-btn" id="att-btn">
-					<img src="./assets/images/iluke.jpg">
 				</div>
 				<div class="row player-picked" id="player-picked">
-					<img class="stan" src="./assets/images/lukeleft.png">
+					
+					<div class="health" id="hp">  </div>
+					<div class="attack" id="attack"> </div>
 				</div>
-				<div class="row name player-name" id="player-name">
-					<h1>LUKE</h1>
-				</div>
+				<div class="row name player-name" id="player-name"></div>
 			</div>
 			<div class="col-lg-6 enemy-box" id="enemy-box">
 				<div class="row pick-enemy" id="pick-enemy">
-					<img  class="enpic" src="./assets/images/enchew.jpg">
-					<img class="enpic" src="./assets/images/enboba.jpg">
-					<img class="enpic" src="./assets/images/envader.jpg">
+					<!--enemies to pick-->
+					<div class="rival" id="enone"></div>
+					<div id="entwo" class="rival"></div>
+					<div id="enthree" class="rival"></div>
 				</div>
 				<div class="row enemy-picked" id="enemy-picked">
-					<img class="stan" src="./assets/images/vaderright.png">
+					<h3>Choose your rival, wisely.</h3>
+					<h1 class="may" id="may">MAY THE FORCE BE WITH YOU</h1>
+
+					<div class="enhealth" id="enhp">  </div>
+					<div class="encount-attack" id="encount-attack"> </div>
 				</div>
 				<div class="row enemy-name name" id="enemy-name">
-					<h1>VADER</h1>
+					<!--<h1>VADER</h1>-->
+
 				</div>
 			</div>
 		</div>
