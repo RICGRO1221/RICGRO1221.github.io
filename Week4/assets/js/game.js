@@ -12,6 +12,7 @@ function restartGame () {
 	var playerChoosen = [];
 	var player = null;
 	var enemies = [];
+	var hp = 1000;
 }
 
 
