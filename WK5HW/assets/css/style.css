@@ -1,0 +1,11 @@
+div {
+	border: black 3px solid;
+}
+@font-face {
+	font-family: 'jurassic';
+	src: url('jurassic.ttf');
+}
+.btnClick {
+	font-family: jurassic;
+	font-size: 50px;
+}
